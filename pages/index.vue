@@ -1,11 +1,9 @@
 <template>
-  <Tutorial/>
+  <Tutorial />
 </template>
 
 <script>
 export default {
-  data: () => {
-
-  }
+  name: 'IndexPage',
 }
 </script>
