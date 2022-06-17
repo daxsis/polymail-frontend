@@ -118,5 +118,9 @@
 <script>
 export default {
   name: 'NuxtTutorial',
+  created() {
+    console.log('test')
+    this.$axios.$get('/api/v1/test').then(resp => console.log(resp))
+  },
 }
 </script>
